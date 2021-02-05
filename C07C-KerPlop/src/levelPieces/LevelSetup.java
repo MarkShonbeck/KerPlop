@@ -16,7 +16,7 @@ public class LevelSetup {
 		for(int i = 0; i < BOARD_LENGTH; i++) {
 			board.add(null);
 		}
-		board.set(getPlayerStartLoc(), new Player(getPlayerStartLoc()));
+		new Player(getPlayerStartLoc());
 		board.set(10, new Warrior(10));
 		board.set(35, new Warrior(35));
 	}
