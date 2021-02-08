@@ -186,10 +186,10 @@ public class Player implements Drawable {
 			newLocation = location + 1;
 		}
 		else if (option == 3 && location > 1) {
-			newLocation = location - 2;
+			newLocation = location - 4;
 		}
 		else if (option == 4 && location < (GameEngine.BOARD_SIZE - 2)) {
-			newLocation = location + 2;
+			newLocation = location + 4;
 		}
 		if (newLocation == -1) {
 			System.out.println("Invalid option, please retry");

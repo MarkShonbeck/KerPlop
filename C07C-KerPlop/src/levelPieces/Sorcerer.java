@@ -21,12 +21,23 @@ public class Sorcerer extends GamePiece implements Moveable{
 		return InteractionResult.NONE;
 	}
 	
+	@Override
 	public void move(Drawable [] gameBoard, int playerLocation) {
 		int rand = (int)(Math.random() * (MOVE_DISTANCE+1));
 		boolean forward = (1 == (int)(Math.random() * 2));
 		if(forward) {
 			if(getLocation() + rand < gameBoard.length && gameBoard[getLocation() + rand] == null) {
-				
+				gameBoard[getLocation()] = null;
+				gameBoard[getLocation() + rand] = this;
+				setLocation(getLocation() + rand);
 			}
 		}
+		else {
+			if(getLocation() - rand >= 0 && gameBoard[getLocation() - rand] == null) {
+				gameBoard[getLocation()] = null;
+				gameBoard[getLocation() - rand] = this;
+				setLocation(getLocation() - rand);
+			}
+		}
+	}
 }

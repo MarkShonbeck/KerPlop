@@ -17,8 +17,26 @@ public class LevelSetup {
 			board.add(null);
 		}
 		new Player(getPlayerStartLoc());
-		board.set(10, new Warrior(10));
-		board.set(35, new Warrior(35));
+		switch(levelNum) {
+		case 1:
+			board.set(5, new Sorcerer(5));
+			board.set(8, new Archer(8));
+			board.set(14, new Treasure(14));
+			board.set(15, new Warrior(15));
+			board.set(25, new Wall());
+			board.set(32, new Wall());
+			board.set(28, new Warrior(28));
+			board.set(30, new Treasure(30));
+			break;
+		case 2:
+			board.set(5, new Sorcerer(5));
+			board.set(8, new Wall());
+			board.set(30, new Treasure(30));
+			board.set(13, new Treasure(13));
+			board.set(31, new Archer(31));
+			board.set(18, new Warrior(18));
+			break;
+		}
 	}
 
 	public Drawable[] getBoard() {

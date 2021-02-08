@@ -22,7 +22,7 @@ public class GameEngine {
 	 * Board is a 1D structure. It is an odd number so player can start exactly in
 	 * the middle if desired.
 	 */
-	public final static int BOARD_SIZE = 21;
+	public final static int BOARD_SIZE = 40;
 	/**
 	 * Number of levels defined for this game. GameEngine will automatically play
 	 * each level, starting with 1 through the number specified here.

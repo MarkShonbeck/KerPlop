@@ -15,7 +15,7 @@ public class Archer extends GamePiece {
 	
 	@Override
 	public InteractionResult interact(Drawable [] gameBoard, int playerLocation) {
-		if(playerLocation - this.getLocation() >= RANGE || playerLocation - this.getLocation() <= RANGE) {
+		if(Math.abs(playerLocation - this.getLocation()) <= RANGE) {
 			return InteractionResult.HIT;
 		}
 		return InteractionResult.NONE;

@@ -23,9 +23,8 @@ public class Warrior extends GamePiece implements Moveable{
 	
 	@Override
 	public void move(Drawable [] gameBoard, int playerLocation) {
-		gameBoard[getLocation()] = null;
 		if(movingRight) {
-			if(getLocation() == gameBoard.length) {
+			if(getLocation() + 1 >= gameBoard.length) {
 				movingRight = false;
 			}
 			else if(gameBoard[getLocation() + 1] != null) {
@@ -33,6 +32,8 @@ public class Warrior extends GamePiece implements Moveable{
 			}
 			else {
 				gameBoard[getLocation() + 1] = this;
+				gameBoard[getLocation()] = null;
+				setLocation(getLocation() + 1);
 			}
 		}
 		else {
@@ -44,6 +45,8 @@ public class Warrior extends GamePiece implements Moveable{
 			}
 			else {
 				gameBoard[getLocation() - 1] = this;
+				gameBoard[getLocation()] = null;
+				setLocation(getLocation() - 1);
 			}
 		}
 	}

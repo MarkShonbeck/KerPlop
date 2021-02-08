@@ -15,6 +15,7 @@ public class Treasure extends GamePiece {
 	@Override
 	public InteractionResult interact(Drawable [] gameBoard, int playerLocation) {
 		if(playerLocation == this.getLocation()) {
+			gameBoard[getLocation()] = null;
 			return InteractionResult.GET_POINT;
 		}
 		return InteractionResult.NONE;
