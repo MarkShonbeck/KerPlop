@@ -1,3 +1,12 @@
+/**
+ * 
+ * Authors:
+ * Mark Shonbeck
+ * Joshua Bordick
+ * 
+ * Date: 2/8/21
+ * 
+ */
 package levelPieces;
 
 import gameEngine.*;
@@ -13,6 +22,9 @@ public class Archer extends GamePiece {
 		super(SYMBOL, NAME, location);
 	}
 	
+	/**
+	 * Hits player if the player is within 3 tiles of it
+	 */
 	@Override
 	public InteractionResult interact(Drawable [] gameBoard, int playerLocation) {
 		if(Math.abs(playerLocation - this.getLocation()) <= RANGE) {

@@ -1,3 +1,12 @@
+/**
+ * 
+ * Authors:
+ * Mark Shonbeck
+ * Joshua Bordick
+ * 
+ * Date: 2/8/21
+ * 
+ */
 package levelPieces;
 
 import gameEngine.*;

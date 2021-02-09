@@ -1,3 +1,13 @@
+/**
+ * 
+ * Authors:
+ * Mark Shonbeck
+ * Joshua Bordick
+ * 
+ * Date: 2/8/21
+ * 
+ */
+
 package levelPieces;
 
 import java.util.ArrayList;
@@ -11,6 +21,10 @@ public class LevelSetup {
 	private final int BOARD_LENGTH = 40;
 	private ArrayList<Drawable> board;
 	
+	
+	/**
+	 * Creates a level based on levelNum
+	 */
 	public void createLevel(int levelNum) {
 		board = new ArrayList<Drawable>();
 		for(int i = 0; i < BOARD_LENGTH; i++) {
@@ -39,6 +53,9 @@ public class LevelSetup {
 		}
 	}
 
+	/**
+	 * returns all the Drawable pieces from the board
+	 */
 	public Drawable[] getBoard() {
 		Drawable [] drawablePieces = new Drawable[BOARD_LENGTH];
 		for(int i = 0; i < board.size(); i++) {
@@ -47,6 +64,9 @@ public class LevelSetup {
 		return drawablePieces;
 	}
 
+	/**
+	 * returns all the Moveable pieces from the board
+	 */
 	public ArrayList<Moveable> getMovingPieces() {
 		ArrayList<Moveable> movingPieces = new ArrayList<Moveable>();
 		for(int i = 0; i < board.size(); i++) {
@@ -57,6 +77,9 @@ public class LevelSetup {
 		return movingPieces;
 	}
 
+	/**
+	 * returns all the pieces that interact from the board
+	 */
 	public ArrayList<GamePiece> getInteractingPieces() {
 		ArrayList<GamePiece> interactingPieces = new ArrayList<GamePiece>();
 		for(int i = 0; i < board.size(); i++) {
