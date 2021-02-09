@@ -1,0 +1,41 @@
+commit 23f6e20844029ec128d97d0d32571cef73851dc7
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:09:19 2021 -0700
+
+    working uml png added
+
+commit 7d45191955cc3522d88157d4a69f2184bfbd5816
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:03:22 2021 -0700
+
+    uml fix
+
+commit 861cc59d14adddd649f0cac943b3d3db7cfee318
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:01:02 2021 -0700
+
+    UML diagram added
+
+commit 96a417a03c8e8e66aa73dbebac848f3e13e688e0
+Author: MarkShonbeck<markshonbeck@mymail.mines.edu>
+Date:   Mon Feb 8 15:50:59 2021 -0700
+
+    adding gitlog
+
+commit dee27cad673ce5bacb4ff05519157ba6fdfde952
+Author: MarkShonbeck<markshonbeck@mymail.mines.edu>
+Date:   Mon Feb 8 15:43:05 2021 -0700
+
+    Fixed minor bugs and created two levels
+
+commit 8f9f47d5cfc226a5eca901c1e5039bf580592f23
+Author: MarkShonbeck<markshonbeck@mymail.mines.edu>
+Date:   Thu Feb 4 18:23:30 2021 -0700
+
+    added a bunch of new pieces
+
+commit 2f478cc2e84a090eaab774df4cb31015051386ee
+Author: MarkShonbeck <markshonbeck@mymail.mines.edu>
+Date:   Tue Feb 2 18:36:25 2021 -0700
+
+    Initial commit
