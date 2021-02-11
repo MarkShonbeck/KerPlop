@@ -1,3 +1,9 @@
+/**
+ * 
+ * @Author Joshua Bordick and Mark Shonbeck
+ * 2/10/21
+ * 
+ */
 package tests;
 
 import gameEngine.*;
@@ -7,7 +13,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestInteractions {
-
+	/**
+	 * check if interaction with player is kill on contact 
+	 * for the warrior and none if anywhere else.
+	 */
 	@Test
 	public void Warrior() {
 		Drawable [] gameBoard = new Drawable[GameEngine.BOARD_SIZE];
@@ -21,7 +30,10 @@ public class TestInteractions {
 			assertEquals(InteractionResult.NONE, warrior.interact(gameBoard, i));
 		}
 	}
-	
+	/**
+	 * test if range of archer is working properly. Should hit player if within plus
+	 * or minus three spaces. Should be none if anywhere else. 
+	 */
 	@Test
 	public void Archer() {
 		Drawable [] gameBoard = new Drawable[GameEngine.BOARD_SIZE];
@@ -36,7 +48,11 @@ public class TestInteractions {
 			}
 		}
 	}
-	
+	/**
+	 * Check if when player is at treasure location the player gets a point. 
+	 * Should be none anywhere else.
+	 * 
+	 */
 	@Test
 	public void Treasure() {
 		Drawable [] gameBoard = new Drawable[GameEngine.BOARD_SIZE];
@@ -50,7 +66,10 @@ public class TestInteractions {
 			assertEquals(InteractionResult.NONE, treasure.interact(gameBoard, i));
 		}
 	}
-	
+	/**
+	 * Check if player advances when interacting with sorcerer. 
+	 * Should be none if anywhere else. 
+	 */
 	@Test
 	public void Sorcerer() {
 		Drawable [] gameBoard = new Drawable[GameEngine.BOARD_SIZE];

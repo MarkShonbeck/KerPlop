@@ -1,3 +1,10 @@
+/**
+ * 
+ * @Author Joshua Bordick and Mark Shonbeck
+ * 2/10/21
+ * 
+ * 
+ */
 package tests;
 
 import gameEngine.*;
@@ -9,7 +16,11 @@ import org.junit.Test;
 
 public class TestMovingPieces {
 	
-	
+	/**
+	 * checks to see if warriors movement was as desired. If the warrior hits
+	 * the wall it should change directions. Also checks if the warrior is moving properly 
+	 * when at the edge of the board.
+	 */
 	@Test
 	public void Warrior() {
 		Drawable [] gameBoard = new Drawable[GameEngine.BOARD_SIZE];
@@ -35,7 +46,12 @@ public class TestMovingPieces {
 			assert(fails == 0);
 		}
 	}
-	
+	/**
+	 * This test checks to see if the sorcerer is meeting a random probabilty check.
+	 * The sorcerer is inteded to move 5 spaces forwards or backwards randomly.
+	 * Run test 500 times to makes sure the sorcerer is being random. 
+	 *
+	 */
 	@Test
 	public void Sorcerer() {
 		Drawable [] gameBoard = new Drawable[GameEngine.BOARD_SIZE];
