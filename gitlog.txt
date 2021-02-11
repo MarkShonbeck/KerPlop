@@ -39,3 +39,112 @@ Author: MarkShonbeck <markshonbeck@mymail.mines.edu>
 Date:   Tue Feb 2 18:36:25 2021 -0700
 
     Initial commit
+commit 70dbfa767c04ec1f9fec524ad00f4ff5f492ef7d
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Wed Feb 10 19:17:59 2021 -0700
+
+    Added comments to tests code
+
+commit 1dbbf088eac6c56f002ea4977b79e4df6c139590
+Merge: 3377eff 8fabca4
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Wed Feb 10 19:07:28 2021 -0700
+
+    Merge branch 'master' of https://github.com/MarkShonbeck/KerPlop
+
+commit 8fabca4c93c42caacdf38c802ec9ed375310b5dc
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Wed Feb 10 19:05:02 2021 -0700
+
+    Finished tests for interactions
+
+commit 5f4554f267aa5124c65222a0a277a9578bc038df
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Tue Feb 9 18:13:36 2021 -0700
+
+    Added new testing classes
+
+commit 371da2de5640f087bdb7d5efb38bc32a26fffd2c
+Author: JoshHatchet <71793900+JoshHatchet@users.noreply.github.com>
+Date:   Mon Feb 8 17:25:44 2021 -0700
+
+    Add files via upload
+
+commit 3377effc49858198430a27d550fa28a5d292ac7e
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:25:15 2021 -0700
+
+    fixed Git log
+
+commit f12dcececb16992750c70ecfc4c9cbb20885a30a
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:22:05 2021 -0700
+
+     fixed git log
+
+commit aacd199deb6881953c7f9ae9b7f0611ae67b3179
+Merge: cad2b8c 12aa82a
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Mon Feb 8 17:18:16 2021 -0700
+
+    Merge branch 'master' of https://github.com/MarkShonbeck/KerPlop
+
+commit cad2b8c2d79719f3c38895cede0079be40ec0412
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Mon Feb 8 17:17:38 2021 -0700
+
+    add comments, a README, and a description of the pieces
+
+commit 12aa82adee218488440c0eb9581d55304dcf3a51
+Author: JoshHatchet <71793900+JoshHatchet@users.noreply.github.com>
+Date:   Mon Feb 8 17:11:03 2021 -0700
+
+    Delete UMLKerPlop
+
+commit 81bc6afd9cb06d7242bbac41dd29460ab584b07f
+Author: JoshHatchet <71793900+JoshHatchet@users.noreply.github.com>
+Date:   Mon Feb 8 17:10:51 2021 -0700
+
+    Delete UMLKerPlop~
+
+commit 23f6e20844029ec128d97d0d32571cef73851dc7
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:09:19 2021 -0700
+
+    working uml png added
+
+commit 7d45191955cc3522d88157d4a69f2184bfbd5816
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:03:22 2021 -0700
+
+    uml fix
+
+commit 861cc59d14adddd649f0cac943b3d3db7cfee318
+Author: JoshHatchet <joshbordick@gmail.com>
+Date:   Mon Feb 8 17:01:02 2021 -0700
+
+    UML diagram added
+
+commit 96a417a03c8e8e66aa73dbebac848f3e13e688e0
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Mon Feb 8 15:50:59 2021 -0700
+
+    adding gitlog
+
+commit dee27cad673ce5bacb4ff05519157ba6fdfde952
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Mon Feb 8 15:43:05 2021 -0700
+
+    Fixed minor bugs and created two levels
+
+commit 8f9f47d5cfc226a5eca901c1e5039bf580592f23
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Thu Feb 4 18:23:30 2021 -0700
+
+    added a bunch of new pieces
+
+commit 2f478cc2e84a090eaab774df4cb31015051386ee
+Author: unknown <markshonbeck@mymail.mines.edu>
+Date:   Tue Feb 2 18:36:25 2021 -0700
+
+    Initial commit
