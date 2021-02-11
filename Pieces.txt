@@ -1,0 +1,10 @@
+Implements Drawable (does not extend GamePiece)
+	Wall
+Extends GamePiece, implements Moveable
+	Warrior - moves back and forth, changing direction when it hits an object
+	Sorcerer - moves randomly within a range of +/- 5 tiles
+Extends GamePiece, with InteractionResult
+	KILL - Warrior, interacts on same location
+	HIT - Archer, hits with range +/- 3 tiles
+	ADVANCE - Sorcerer, interacts on same location
+	GET_POINT - Treasure, interacts on same location
